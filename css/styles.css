@@ -1,0 +1,2108 @@
+
+* {
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+header {
+
+	width:100%;
+}
+
+
+
+.div_header {
+
+    width:auto; /*changes: width: auto*/
+    )
+}
+/*
+.wrapper {
+
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+*/
+.div_header a{
+	
+	color:#343a47;
+	float:right;
+	padding-top: 27px;
+    padding-left:53px;
+    padding-bottom: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+}
+.div_header a:hover {
+   color: #ff5100;
+
+
+}
+
+#logo {
+
+  
+   padding-bottom: 20px;
+
+
+
+}
+
+
+.div_catalog {
+  display: flex;
+  justify-content:space-between;
+}
+
+#id_contact {
+
+padding-right: 500px;
+
+}
+
+.div_image_info {
+
+   height:906px;
+   background-color: #000000;
+   width: auto;
+
+
+}
+
+#img_main {
+
+	padding-left: 220px;
+	padding-top: 170px;
+	padding-right: 464px ;
+	padding-bottom: 2px;
+
+
+
+}
+
+.info_box{
+
+    position: absolute;
+    top:840px;
+    left:388px;
+   
+    height: 287px;
+    width: 1000px;
+    background-color: white;
+    color: black;
+  
+    border: 1px solid #d0d0d4;
+    box-shadow: 5px 5px 5px #d0d0d4;
+
+
+}
+
+.info_box_div1 {
+  width: 400px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 50px;
+
+   
+    float: left;
+}
+
+.info_box_div2 {
+  width: 400px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 40px;
+
+     
+    float: left;
+}
+
+
+#fig_two {
+  float: left;
+ 
+  margin: 0px 30px 15px 20px;
+ 
+  
+}
+
+#paragrafi1 {
+margin-top:50px;
+text-align:justify;
+width:350px;
+font-style: italic;
+font-weight: bold;
+font-family: cursive;
+}
+
+
+#fig_one{
+  float: left;
+  
+  margin: 0px 30px 15px 20px;
+ 
+  
+}
+
+#paragrafi2 {
+margin-top:50px;
+text-align:justify;
+width:350px;
+font-style: italic;
+font-weight: bold;
+font-family:cursive;
+}
+
+#view_more {
+
+  color: #ff5100;
+}
+
+#view_more:hover {
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+.div_catalog{
+	
+
+    height:750px;
+    width:auto;
+    background-color: white;
+    color:black;
+
+   
+
+}
+
+
+.div_red_box{
+    
+    height:384px;
+    width:auto;
+    background-color: #e74c3c;
+    color:white;
+
+
+
+}
+
+.div_red_box > p {
+
+	padding-top:52px;
+	padding-left:390px ;
+	padding-right:390px;
+	
+	
+	font-size: 40px;
+	font-family:'Anton', sans-serif;;
+    text-align: center;
+	color:white;
+}
+
+
+.div_red_box > button {
+
+  color:red;
+  background-color: white;
+  padding: 15px 36px;
+  text-align: center;
+  font-size: 16px;
+  margin-left:728px;
+  margin-top: 44px;
+  cursor: pointer;
+  border:none;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.div_red_box > button:hover{
+   
+
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
+
+.div_hide_info{
+
+  width: auto;
+  background-color: white;
+  height: 700px;
+}
+
+.hide_info_1 {
+  margin-top: 0px;
+
+  background-color: #e76254;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  height: 70px;
+  padding-left: 433px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hide_info_2{
+  margin-top: 0px;
+ 
+  background-color: #fa6d5e;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  height: 70px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hide_info_3 { 
+  margin-top: 0px;
+  
+  background-color: #fc8e82;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  height: 70px;
+  padding-left: 1115px ;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.show_info_1 {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  height: 69px;
+  font-family: cursive;
+}
+
+.show_info_2 {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  height: 69px;
+  font-family: cursive;
+}
+
+.show_info_3 {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  height: 69px;
+  font-family: cursive;
+}
+
+.show_info_1 p {
+
+  text-align: center;
+  padding-top: 18px;
+}
+
+.show_info_2 p {
+
+  text-align: center;
+  padding-top: 18px;
+}
+
+.show_info_3 p {
+
+  text-align: center;
+  padding-top: 18px;
+}
+
+.active1, .hide_info_1:hover{
+  background-color: #e74c3c; 
+}
+
+.active2, .hide_info_2:hover{
+  background-color: #e74c3c; 
+}
+
+.active3, .hide_info_3:hover{
+  background-color: #e74c3c; 
+}
+
+
+
+.div_hide_info > h2 {
+
+  padding-top: 100px;
+  padding-left: 830px;
+
+
+}
+
+.div_hide_info > p {
+
+  color: black;
+  font-size: 23px;
+  width: 653px;
+  text-align: justify;
+  padding-top: 41px;
+  padding-left: 830px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.div_black_box {
+
+  height:550px;
+  background-color: black;
+  margin-top: 109px;
+}
+
+
+.div_black_box > h2 {
+
+  padding-top: 100px;
+  padding-left: 152px;
+  color:white;
+
+
+}
+
+
+.div_black_box > p {
+
+  color: white;
+  font-size: 23px;
+  width: 653px;
+  text-align: justify;
+  padding-top: 44px;
+  padding-left: 152px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.div_white_box {
+
+    height:550px;
+    background-color: white;
+
+
+}
+
+
+.div_white_box > h2 {
+
+  padding-top: 100px;
+  padding-left: 830px;
+
+
+}
+
+.div_white_box > p {
+
+  color: black;
+  font-size: 23px;
+  width: 653px;
+  text-align: justify;
+  padding-top: 41px;
+  padding-left: 830px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 40px;
+  font-size: 25px;
+  width: 33.33%;
+  height:60px;
+  padding-bottom: 60px;
+}
+
+.tablink:hover {
+  background-color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  padding-top:220px;
+  text-align: center;
+  height:280px;
+
+}
+
+#build_muscle {background-color:#e54a3b;}
+#burn_fat {background-color:black;}
+#eat_healthy {background-color:#ff5100;}
+
+.div_quote {
+ 
+  background-color: white;
+  height: 200px;
+
+
+}
+
+.div_quote > h1 {
+
+  color:black;
+  padding-left: 550px;
+  padding-top: 80px;
+  text-align: justify;
+}
+
+.div_quote > p {
+
+  color:gray;
+  padding-left: 850px;
+  padding-top: 5px;
+}
+
+
+.div_social_media {
+
+  background-color: #ff5100;
+  height:80px;
+
+}
+
+
+
+.social_icons {
+  text-align: center;
+  }  
+.social_icons li {
+  display:inline-block;
+  list-style-type:none;
+
+  }
+
+.social_icons li a {
+  border-bottom: none;
+  }
+.social_icons li img {
+  width:50px;
+  height:50px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+footer {
+
+height: 500px;
+background-color: black;
+color: gray;
+
+
+}
+
+.footer_products {
+
+  display: inline-block;
+  padding-left: 200px;
+  padding-top:  50px ;
+}
+
+.footer_products a {
+  background-color: black;
+  color: gray;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.footer_products a:hover {
+    text-decoration: underline;
+}
+
+
+.footer_about {
+
+  display: inline-block;
+  padding-left: 200px;
+  padding-top:  10px ;
+}
+
+.footer_about a {
+  background-color: black;
+  color: gray;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.footer_about a:hover {
+    text-decoration: underline;
+}
+
+
+.footer_resources {
+
+  display: inline-block;
+  padding-left: 200px;
+  padding-top:  50px ;
+}
+
+.footer_resources a {
+  background-color: black;
+  color: gray;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.footer_resources a:hover {
+    text-decoration: underline;
+}
+
+
+#logo_tonyhorton {
+
+   width: 170px;
+   height: 170px;
+   padding-left: 300px;
+   padding-top: 70px;
+
+
+}
+
+
+hr {
+
+  margin-top: 70px;
+  background-color: gray;
+  width: 70%;
+  margin-left: 249px;
+
+
+}
+
+footer > p {
+
+
+  padding-left: 700px;
+  margin-top: 40px;
+  color: gray;
+}
+
+
+.div_catalog {
+
+
+margin-top: 200px;
+
+height: 500px;
+
+
+
+}
+
+
+
+.container {
+  position: relative;
+  width: 33.33%;
+  max-width: 500px;
+  display:inline-block;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 92%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  text-align: left;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  
+}
+.container:hover {
+  cursor: pointer;
+}
+
+
+.contactpage_div {
+  display:flex;
+  justify-content:space-between;
+  height: 700px;
+}
+
+
+.div_image_contact {
+  /* The image used */
+  background-image: url("../images/tonyHortonContact.jpg");
+
+  min-height: 380px;
+
+ 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+  position: relative;
+  
+}
+
+
+
+/* Position the navbar container inside the image 
+.div_header {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+   */
+
+.div_header_contact {
+
+   width:auto;
+   position: absolute;
+   margin:20px;
+
+}
+
+
+.div_header_contact a{
+  
+  color:#343a47;
+  float:right;
+  padding-top: 17px;
+    padding-left:53px;
+    padding-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+.div_header_contact a:hover {
+   color: #ff5100;
+
+
+}
+
+#id_home_contactPage {
+
+padding-left: 650px;
+
+}
+
+
+/***************************
+
+CONTACT FORMA DHE HARTA
+
+ *****************************/
+
+ .div_form_contactpage h3 {
+  margin-left: 76px;
+  margin-top: 11px;
+ }
+
+#emri_contactPage{
+
+border: 1px solid silver;
+
+width:300px;
+height: 45px;
+background-color: #f5f3f1;
+font-size: 21.5px;
+margin-bottom: 15px;
+margin-top: 14px;
+
+
+
+}
+
+
+#mbiemri_contactPage{
+
+
+border: 0.3px solid silver;
+
+width:300px;
+height: 45px;
+background-color: #f5f3f1;
+margin-left: 30px;
+font-size: 21.5px;
+
+
+}
+
+#email_contactPage{
+
+
+border: 0.3px solid silver;
+
+width:634px;
+height: 45px;
+background-color: #f5f3f1;
+margin-top: 15px;
+font-size: 21.5px;
+
+
+
+}
+
+
+
+
+#postal_contactPage1{
+
+  
+  width:70px;
+  padding: 10px;
+ background-color: #f5f3f1;
+ margin-top: 5px;
+ font-size: 21.5px;
+
+
+
+}
+
+#postal_contactPage{
+   
+   width:70px;
+   padding:10px;
+background-color: #f5f3f1;
+font-size: 21.5px;
+
+
+
+}
+
+
+#subject_contactPage{
+
+   
+   border: 0.3px solid silver;
+
+   width:634px;
+   height: 45px;
+   background-color: #f5f3f1;
+   margin-top: 40px;
+font-size: 21.5px;
+
+}
+
+textarea {
+
+
+background-color: #f5f3f1;
+height: 100px;
+margin-top: 40px;
+width: 634px;
+font-size: 21.5px;
+
+
+}
+
+
+
+#send_button{
+
+
+  color: white;
+  background-color: black;
+  width: 100px;
+  padding:12px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-left: 260px;
+
+
+
+
+}
+
+#send_button:hover{
+
+
+  cursor: pointer;
+}
+
+.contactpage_div h3 {
+
+  
+   color:#ff5600;
+
+
+}
+
+#name_h5_contactpage {
+
+  
+  color: gray;
+  font-size: 14px;
+
+}
+
+#first_name_h5_contactpage{
+
+  
+  
+  color: gray;
+  font-size: 14px;
+  display: inline;
+  margin-right: 40px;
+  
+
+
+
+}
+
+
+#last_name_h5_contactpage{
+
+  
+  margin-left: 270px;
+  color: gray;
+  font-size: 14px;
+  display: inline;
+  margin-right: 200px;
+ 
+  
+
+
+
+}
+
+.div_map_contactpage {
+
+
+width: 600px;
+height: 500px;
+float: left;
+ margin-top:120px;
+ margin-left:166px;
+
+
+}
+
+.div_form_contactpage {
+
+
+width:700px;
+height: 500px;
+float: left;
+margin-top:20px;
+margin-right:60px;
+
+
+}
+
+#phone_contactpage {
+ color: gray;
+ font-size: 14px;
+ margin-bottom: 19px;
+ margin-top: 17px;
+
+}
+
+#subject_h5_contactpage {
+  color: gray;
+  margin-top: 14px;
+  margin-bottom: -23px;
+
+
+}
+#message_h5_contactpage {
+
+  margin-top: 14px;
+  margin-bottom: -21px;
+ color: gray;
+
+}
+
+
+/***************************
+
+TEXT OVER IMAGE: CONTACT TONY;
+
+*****************************/
+
+.contact_tony_text {
+
+  position: absolute;
+  margin-left:50%;
+  margin-right:50%;
+   z-index: 999;
+   font-size: 30px;
+    margin-top: 126px;
+    margin-left: 741px;
+    margin-right: 85px;
+    font-family: "Gill Sans MT"
+    
+}
+
+/***************************
+
+ABOUT US
+
+*****************************/
+
+
+.div_navbar_about_us {
+
+  display: flex;
+  justify-content:space-between;
+  height: 200px;
+  width: 100%;
+  padding-top: 30px;
+  color: white;
+}
+
+.div_home_link {
+  margin-left: 500px;
+
+}
+
+.div_contact_link {
+  margin-right: 200px;
+}
+
+.div_navbar_about_us a {
+  text-decoration: none;
+  color: white;
+
+}
+.div_navbar_about_us {
+  height: 50px;
+}
+.div_navbar_about_us a:hover {
+  color: #ff5600;
+  
+}
+
+.div_img_menu_about_us {
+  height: 400px;
+}
+
+.div_img_menu_about_us{
+  background-image: url("../images/Tony_Horton_About_Us_Image.jpg");
+
+  min-height: 380px;
+
+ 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+  position: relative;
+
+
+}
+
+.div_text_over_image_aboutus {
+
+  position: absolute;
+  margin-top:50px;
+  z-index: 999;
+  margin-left: 587px;
+  font-size: 35px;
+  margin-bottom: 1px;
+  display: block;
+  
+  }
+
+.div_text_over_image_aboutus_2{
+  
+  position: absolute;
+  margin-left:660px;
+  margin-top:180px;
+  font-size: 22px;
+
+}
+
+.div_text_over_image_aboutus h1 {
+   color: white;
+}
+
+.div_text_over_image_aboutus_2 h4 {
+   color: gray;
+}
+
+
+.div_main_content_aboutus {
+
+  height: 412px;
+}
+
+
+
+/********************************
+
+
+CONTENT WITH LOGOS
+
+********************************/
+
+
+.div_inner_flex_1{
+
+  display: flex;
+  justify-content:space-between;
+  width: 1100px;
+  height: 100px;
+  margin-left: 338px;
+  margin-right: 50px;
+  margin-top: 60spx;
+}
+
+.div_inner_flex_2{
+
+  display: flex;
+  justify-content:space-between;
+  width: 1100px;
+  height: 100px;
+  margin-left: 338px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.div_inner_flex_3{
+
+ display: flex;
+  justify-content:space-between;
+  width: 1100px;
+  height: 100px;
+  margin-left: 338px;
+  margin-right: 50px;
+  margin-top: 30px;
+
+
+}
+
+
+.div_fitness_blue{
+
+  margin-top: 11px;
+  height: 100px;
+  width: 200px;
+
+}
+.div_fitness_blue img{
+
+  
+  width: 190px;
+  
+}
+
+.div_askmen {
+
+  height: 100px;
+  width: 200px;
+
+}
+
+.div_askmen img {
+
+   width: 190px;
+
+}
+
+.div_mensfitness {
+
+  margin-top: 16px;
+  height: 100px;
+  width: 200px;
+
+}
+
+.div_mensfitness img {
+
+  width: 190px;
+
+}
+
+.div_shape {
+
+  height: 100px;
+  width: 200px;
+
+}
+
+#shape_logo {
+  height: 43px;
+  margin-top: 19px;
+}
+
+.div_shape img {
+
+  width: 190px;
+
+}
+
+
+.div_examiner {
+
+  height: 100px;
+  width: 200px;
+
+}
+
+.div_examiner img {
+ 
+    width: 190px;
+
+}
+
+ 
+
+.div_mens_health{
+
+  height: 100px;
+  width: 200px;
+}
+
+.div_mens_health img {
+
+  width: 190px;
+}
+
+.div_womens_health{
+     
+  margin-top: 7px;
+  height: 100px;
+  width: 200px;
+}
+
+.div_womens_health img {
+
+  width: 190px;
+}
+
+.div_forbes{
+
+  height: 100px;
+  width: 200px;
+}
+
+.div_forbes img {
+  width: 190px;
+}
+
+
+.div_espa {
+
+  height: 100px;
+  width: 200px;
+
+}
+
+.div_espa img {
+  width: 190px;
+}
+
+.div_outside {
+
+  height: 100px;
+  width: 200px;
+}
+
+.div_outside img {
+
+  width: 190px;
+}
+
+.div_newyork_times {
+ height: 100px;
+  width: 200px;
+  margin-top: 21px;
+
+}
+
+.div_newyork_times img {
+
+ width: 190px;
+
+}
+
+.div_wallstreet {
+  
+  margin-top: 23px;
+  height: 100px;
+  width: 200px;
+
+
+}
+
+.div_wallstreet img {
+
+  width: 190px;
+
+}
+
+.div_los_angelos {
+  
+  margin-top: 19px;
+  height: 100px;
+  width: 200px;
+
+}
+
+.div_los_angelos img {
+
+  width: 190px;
+
+}
+
+.div_boston {
+
+  margin-top: 12px;
+  height: 100px;
+  width: 200px;
+
+}
+
+.div_boston img {
+
+  width: 190px;
+}
+
+
+.div_washington {
+
+  margin-top: 14px;
+  height: 100px;
+  width: 200px;
+
+}
+
+.div_washington img {
+
+  width: 190px;
+
+}
+
+.div_navbar_home {
+
+  display: flex;
+  justify-content:space-between;
+  height: 200px;
+  width: 100%;
+  padding-bottom: 6px;
+ 
+  color: black;
+}
+
+.div_home_link {
+  margin-left: 20px;
+  padding-top: 22px;
+
+}
+
+.div_contact_link {
+  margin-right: 500px;
+  padding-top: 22px;
+}
+
+.div_navbar_home a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.div_navbar_home {
+  height: 50px;
+}
+.div_navbar_home a:hover {
+  color: #ff5600;
+  
+}
+.div_logo_home {
+
+  float: left;
+  margin-left: 350px;
+  padding-top: 11px;
+} 
+
+.div_home_link_about_us {
+
+  margin-left: 500px;
+  padding-top: 19px;
+}
+
+.div_club_life_link {
+  padding-top: 22px;
+}
+
+.div_training_link {
+ padding-top: 22px;
+
+}
+
+
+.div_aboutus_link {
+
+   padding-top: 22px;
+}
+
+.div_tony_description {
+
+  height: 770px;
+  background-color: white;
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+
+
+}
+
+
+.div_flex_1 {
+
+  width: 400px;
+  height: 700px;
+  margin-top: 18px;
+  margin-left: 250px;
+
+
+}
+
+.div_flex_2 {
+
+  width: 400px;
+  height: 700px;
+  background-color:white;
+  text-align: justify;
+  margin-top: 18px;
+
+}
+
+.div_flex_2 p {
+
+  text-align: left;
+  padding-left: 20px;
+  font-size: 23px;
+  padding-right: 20px;
+  padding-top: 17px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.div_flex_2 h3 {
+
+  text-align: justify;
+  padding-left: 20px;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-top: 17px;
+  color: #fe5200;
+
+
+}
+
+
+.div_flex_3 {
+
+  width: 400px;
+  height: 700px;
+  margin-top: 18px;
+  margin-right: 205px;
+
+}
+
+
+.div_flex_3 p {
+
+  text-align: left;
+  padding-left: 20px;
+  font-size: 23px;
+  padding-right: 20px;
+  padding-top: 17px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.div_flex_3 p:nth-child(2){
+  padding-top: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.div_flex_3 button {
+
+  color: white;
+  font-size: 12px;
+  background-color:#fe5200;
+  padding: 12px;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 75px;
+  margin-top: 40px;
+
+}
+
+.div_flex_3 button:hover {
+
+  cursor: pointer;
+}
+
+
+
+
+#img_tony_dumbells {
+
+  padding-top: 43px;
+  padding-left: 20px;
+  display: block;
+  width: 340px;
+  height: 200px;
+}
+
+#img_tony_think {
+
+  padding-top: 30px;
+  padding-left: 20px;
+  display: block;
+  width: 340px;
+  height: 200px;
+
+}
+
+
+
+
+
+
+
+
+.div_publications {
+
+  height: 200px;
+  
+  margin-bottom: 5px;
+ 
+}
+
+
+
+
+
+
+
+
+.block_elementi {
+  widows: 100%;
+}
+.block_elementi__thumb {
+  widows: 50%;
+}
+
+
+.wrapper {
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*******************************
+
+VALIDIMI I FORMES
+
+************************/
+
+   #h5_emri_validation{
+         display: none;
+   }
+   #h5_mbiemri_validation{
+         display: none;
+   }
+   #h5_email_validation{
+         display: none;
+   }
+   #h5_numri_validation{
+         display: none;
+   }
+
+
+   #h5_textarea_validation{
+
+      display: none;
+   }
+
+
+   #select_qyteti{
+       width: 140px;
+   }
+
+   #h5_select_validation{
+
+      display: none;
+   }
+
+   #green_message {
+      display: none;
+   }
+
+
+.div_name_surname_input{
+  display: flex;
+  justify-content:space-between;
+}
+
+.div_input_name {
+  flex:1;
+}
+
+#emri_input{
+  width: 300px;
+  height: 25px;
+  border-color: #D3D3D3;
+  font-size: 19px;
+  padding-left: 5px;
+  
+}
+
+.div_surname_input {
+
+  flex:1;
+}
+
+#mbiemri_input {
+
+    width: 300px;
+    height: 25px;
+    border-color: #D3D3D3;
+    font-size: 19px;
+    padding-left: 5px;
+     
+
+
+}
+
+#email_input {
+ 
+     width: 651px;
+     height: 25px;
+     border-color: #D3D3D3;
+    font-size: 19px;
+    padding-left: 5px;
+
+}
+
+ #numri_input{
+
+     width: 651px;
+     height: 25px;
+     border-color: #D3D3D3;
+    font-size: 19px;
+    padding-left: 5px;
+     
+
+
+ }
+
+  #select_qyteti{
+   width: 651px;
+   height: 25px;
+    border-color: #D3D3D3;
+    margin-top: 2px;
+  }
+  #textarea_input{
+   
+    width: 651px;
+    margin-top: 2px;
+    font-size: 19px;
+    padding-left: 5px;
+
+  }
+
+  .div_name_surname_input{
+
+    margin-top: 105px;
+  }
+
+
+   .div_email_input{
+    margin-top: 20px;
+   }
+   
+
+    .div_numri_input{
+      margin-top: 20px;
+
+    }
+   
+     .div_select_input{
+      margin-top: 20px;
+
+    }
+
+     .div_textarea_input{
+       margin-top: 20px;
+     }
+
+     
+
+    #valid_button{
+
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 295px;
+    margin-top: 30px;
+    border-radius: 6px;
+
+     }
+
+.div_login {
+  margin-right: 20px;
+  margin-top:22px;
+  color:red;
+}
+
+.div_products_image{
+  width: 100%;
+  margin:0 auto;
+  height: 400px;
+  
+}
+
+.form_porosia input{
+ 
+  border-radius: 7px;
+  width:400px;
+  font-size: 22px;
+  padding-left:5px;
+  margin-top: 20px;
+  border-color:green;
+  height:50px;
+}
+
+#submit_porosia:hover{
+background-color: green;
+color:white;
+font-size: 26px;
+cursor: pointer;
+}
+
+.div_p_buildmuscle{
+  margin-left:300px;
+  width:500px;
+  height: 500px;
+  text-align: justify;
+
+ }
+
+
+@media screen and (max-width:767px) {
+
+.div_login{
+  display: none;
+}
+ 
+
+ .div_p_buildmuscle{
+  margin-left:20px;
+  width:200px;
+  height: 200px;
+  text-align: justify;
+
+ }
+ .div_map_contactpage{
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0 0 0 0 ;
+  height: 200px;
+
+ }
+
+ .div_form_contactpage {
+  margin:0 0 0 0;
+  padding: 0 0 0 0;
+  height: 250px;
+ }
+
+
+ .contactpage_div {
+  flex-direction:column;
+  height: 1500px;
+ }
+
+ iframe {
+
+  width: 100%;
+  height: 250px;
+ }
+
+ .contact_tony_text{
+
+  margin-left: 200px;
+  margin-top: 250px;
+ }
+
+ .info_box {
+  display: none;
+ }
+
+ .div_logo_home {
+
+  margin-left: 81px;
+ }
+
+ .div_home_link {
+ 
+  margin-left: 78px;
+
+ } 
+
+ .div_club_life_link{
+  display:none;
+ }
+
+ .div_aboutus_link {
+  
+  display: none;
+ }
+
+ .div_training_link {
+
+  margin-left: 128px;
+ }
+
+ .div_contact_link {
+
+  margin-left: 157px;
+ }
+
+ .div_hide_info {
+
+  display:none;
+ }
+
+ .footer_resources{
+
+  display:none;
+ }
+
+ .div_quote > h1{
+
+  padding-left: 25px;
+  text-align: center;
+ }
+
+ .div_quote > p{
+  display: none;
+ }
+
+ .div_red_box > button{
+  display: none;
+ }
+
+ .div_red_box > p {
+
+  font-size: 32px;
+  padding-left: 25%;
+  padding-right: 25%;
+
+ }
+
+ .div_hide_info h2 {
+
+  display: none;
+
+ }
+
+ .div_hide_info p {
+
+  display: none;
+ }
+
+ .div_black_box {
+
+  margin-top: 0px;
+ }
+
+ .div_black_box > p {
+
+  padding-left: 62px;
+
+ }
+ .div_black_box > h2{
+
+   padding-left: 62px;
+
+ }
+
+ .div_white_box > p {
+
+  padding-left: 62px;
+ 
+ }
+
+
+ .div_white_box > h2 {
+
+   padding-left: 62px;
+
+ }
+
+ .div_catalog {
+  flex-direction:column;
+  margin-top: -62px;
+  height: 1681px;
+ }
+
+ .container {
+
+  margin-left: 145px;
+  width: 80%;
+  margin-top: 182px;
+ }
+
+ .div_catalog div:nth-child(2){
+
+  margin-top: 0px;
+
+ }
+
+ .div_catalog > div {
+
+  
+  margin-bottom: -123px;
+
+ }
+
+ .div_flex_1 {
+
+  margin-left:1px;
+ }
+
+ footer hr {
+
+  display: none;
+
+ }
+
+ footer p {
+  
+  display: none;
+
+ }
+
+.div_flex_3 {
+
+  display: none;
+}
+
+.div_flex_2 {
+
+  margin-top: 37px;
+}
+
+.div_home_link_about_us{
+
+  margin-left: 158px;
+}
+
+.div_text_over_image_aboutus {
+
+  margin-left: 62px;
+  margin-top: 47px;
+}
+
+.div_text_over_image_aboutus_2{
+
+  margin-left: 189px;
+}
+
+.div_text_over_image_aboutus_2 {
+
+  margin-top: 140px;
+}
+.div_img_menu_about_us{
+  background-size: auto;
+}
+
+.div_publications{
+  height: 134px;
+
+}
+
+
+.div_inner_flex_1{
+
+    width: 30.3%;
+    height: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 49px;
+    margin-right: 0px;
+
+
+}
+
+.div_main_content_aboutus{
+
+      height: 510px;
+}
+
+
+.div_inner_flex_2 {
+
+    display: inline-flex;
+    flex-direction: column;
+    width: 30.3%;
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+}
+
+.div_inner_flex_3 {
+
+    display: inline-flex;
+    flex-direction: column;
+    width: 30.3%;
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+
+}
+
+.div_map_contactpage{
+
+  height: 300px;
+  width: 95%;
+  margin-left: 16px;
+}
+
+.div_form_contactpage{
+
+  flex:1;
+  margin-left: 56px;
+  width: 95%;
+}
+
+.contactpage_div{
+  height: 953px;
+}
+
+.contactpage_div h3{
+
+  margin-bottom: 29px;
+}
+
+
+/*********************/
+
+.div_header_contact a {
+  position: absolute;
+  right: -810px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  text-align:left;
+}
+
+.div_header_contact a:hover {
+  right: -760px;
+}
+
+#div_header_contact__contact {
+  top: 7px;
+  background-color: #555;
+}
+
+#div_header_contact__aboutus {
+  top: 67px;
+  background-color: #555;
+}
+
+#div_header_contact__training {
+  top: 127px;
+  background-color: #555;
+}
+
+#div_header_contact__clublife {
+  top: 187px;
+  background-color: #555;
+}
+
+.div_header_contact__home {
+
+  display:none;
+
+}
+
+
+
+
+}
+  

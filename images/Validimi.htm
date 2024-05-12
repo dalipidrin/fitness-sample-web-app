@@ -1,0 +1,226 @@
+
+<!-- saved from url=(0054)http://localhost/ushtrimeBetimi/ushtrimeValidation.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   	
+   	<title> 
+         Validimi
+   	</title>
+
+
+
+   	<style>
+	
+	#h3_validation {
+
+		display: none;
+	}
+
+	#h3_validation_emri{
+
+		display: none;
+	}
+
+	#h3_validation_mbiemri{
+
+		display: none;
+	}
+
+	#h3_validation_email{
+
+		display: none;
+	}
+
+	#h3_validation_date{
+
+		display: none;
+	}
+
+	#h3_validation_phone{
+
+		display: none;
+	}
+
+</style>
+
+ </head>
+
+<body>
+
+  
+
+
+
+   
+     <input type="text" name="emri" id="emri"><br>
+     <h5 id="h3_validation_emri"></h5><br>
+     <input type="text" name="mbiemri" id="mbiemri"><br>
+     <h5 id="h3_validation_mbiemri"></h5><br>
+     <input type="email" name="email" id="email"><br>
+     <h5 id="h3_validation_email"></h5><br>
+
+     <input type="date" name="date" id="date"><br>
+     <h5 id="h3_validation_date"></h5><br>
+     <input type="text" name="phone" id="phone"><br>
+     <h5 id="h3_validation_phone"></h5><br>
+     <button onclick="validimi()" name="submit">click</button>
+
+     <h3 id="h3_validation">sdsdfsdfsdfsdf</h3>
+
+
+
+
+     <script>
+
+       
+         function validimi () {
+              
+  
+           var emri = document.getElementById('emri').value;
+           var mbiemri = document.getElementById('mbiemri').value;
+           var email = document.getElementById('email').value;
+           var phone = document.getElementById('phone').value;
+          
+           var valid;
+
+           var regexEmri = RegExp('[a-zA-Z]{2,20}$');
+           var regexMbiemri = RegExp('[a-zA-Z]{2,20}$');
+           var regexEmail = RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
+           var regexPhone = RegExp('[0-9]');
+
+
+       
+
+
+          do {
+             
+
+           if (regexEmri.test(emri) == true) { 
+
+                // document.getElementById('h3_validation_emri').style.display = "none"; 
+              
+ 
+           }else {
+
+           
+                
+
+
+
+            document.getElementById('h3_validation_emri').style.display = "block"; 
+            document.getElementById("h3_validation_emri").innerHTML = "Emri duhet te permbaje vetem shkronja";
+            document.getElementById("h3_validation_emri").style.color = "red";
+            document.getElementById('emri').style.borderColor = "red";
+
+            }
+
+
+           if (regexMbiemri.test(mbiemri) == true) { 
+
+               //document.getElementById('h3_validation_mbiemri').style.display = "none";
+
+           }else {
+
+         
+
+
+
+
+            document.getElementById('h3_validation_mbiemri').style.display = "block"; 
+            document.getElementById("h3_validation_mbiemri").innerHTML = "Mbiemri duhet te permbaje vetem shkronja";
+            document.getElementById("h3_validation_mbiemri").style.color = "red";
+            document.getElementById('mbiemri').style.borderColor = "red";
+            }
+
+
+
+           if (regexEmail.test(email) == true) { 
+
+              //  document.getElementById('h3_validation_email').style.display = "none";
+ 
+           }else {
+
+           
+                
+
+
+
+            document.getElementById('h3_validation_email').style.display = "block"; 
+            document.getElementById("h3_validation_email").innerHTML = "Sheno emailin si duhet";
+            document.getElementById("h3_validation_email").style.color = "red";
+            document.getElementById('email').style.borderColor = "red";
+            }
+         
+
+
+            if (regexPhone.test(phone) == true) { 
+     
+             //  document.getElementById('h3_validation_phone').style.display = "none";
+             
+ 
+           }else {
+
+           
+
+
+
+            document.getElementById('h3_validation_phone').style.display = "block"; 
+            document.getElementById("h3_validation_phone").innerHTML = "Kjo fushe duhet te permbaje vetem numra";
+            document.getElementById("h3_validation_phone").style.color = "red";
+            document.getElementById('phone').style.borderColor = "red";
+            }
+
+
+          }
+
+          while(regexEmri.test(emri) == true && regexMbiemri.test(mbiemri) == true && regexEmail.test(email) == true && regexPhone.test(phone) == true);
+
+             // if(regexEmri.test(emri) == true && regexMbiemri.test(mbiemri) == true && regexEmail.test(email) == true && regexPhone.test(phone) == true){
+
+
+              document.getElementById("h3_validation").style.display = "block";
+              document.getElementById("h3_validation").innerHTML = "Faleminderit per mesazhin tuaj";
+              document.getElementById("h3_validation").style.color = "green";
+              document.getElementById('emri').value = ' ';
+              document.getElementById('mbiemri').value = ' ';
+              document.getElementById('email').value = ' ';
+              document.getElementById('phone').value = ' ';
+
+            // document.getElementById("h3_validation_emri").style.display = "none";
+            // document.getElementById("h3_validation_mbiemri").style.display = "none";
+            // document.getElementById("h3_validation_email").style.display = "none";
+             //document.getElementById("h3_validation_phone").style.display = "none";
+          
+               }
+
+
+
+          }
+
+
+
+
+
+
+
+
+
+
+       //secili input me pas naj h3 perfundi qe osht fillimisht display none
+
+
+
+     
+         
+   
+
+
+
+
+
+
+
+
+
+     </script>
+
+     </body></html>
